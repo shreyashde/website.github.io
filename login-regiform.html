@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<style>
+		body{
+		background-image:url("images/5.jpg");
+	}
+	</style>
+	<link href="login-regiformstyle.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="full-page">
+		<div class="navbar">
+			<div>
+				<a href="website.html"></a>
+			<nav>
+			<ul id="MenuItems">
+					<li><a href="#" class="nav-link text-light bg-dark">Home</a></li>
+					<li><a href="#" class="nav-link text-light bg-dark">About Us</a></li>
+					<li><a href="#" class="nav-link text-light bg-dark">Services</a></li>
+					<li><a href="#" class="nav-link text-light bg-dark">Contact</a></li>
+					<li><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div id="login-form" class="login-page">
+			<div class="form-box">
+				<div class="button-box">
+					<div id="btn"></div>
+					<button type="button"onclick="login()" class="toggle-btn">Log In</button>
+					<button type="button"onclick="register()" class="toggle-btn">Register</button>
+				</div>
+				<form id="login" class="input-group-login">
+					<input type="text" class="input-field" placeholder="Email-id" required>
+					<input type="password" class="input-field" placeholder="Enter Password" required>
+					<input type="checkbox" class="check-box"><span> Remembar Password</span>
+					<button type="submit" class="submit-btn">Log In</button>
+				</form>
+				<form id="register" class="input-group-register">
+					<input type="text" class="input-field" placeholder="First Name" required>
+					<input type="text" class="input-field" placeholder="Last Name" required>
+					<input type="text" class="input-field" placeholder="Middle Name" required>
+					<input type="email-id" class="input-field" placeholder="Email-Id" required>
+					<input type="password" class="input-field" placeholder="Enter Password" required>
+					<input type="password" class="input-field" placeholder="Confirm Password" required>
+					<input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+					<button type="submit" class="submit-btn">Register</button>
+				</form>
+			</div>
+		</div>
+	</div>		
+</body>
+</html>

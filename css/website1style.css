@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header
+{
+	height: 50px;
+}
+.navbar-style,.carousel-item{
+	box-shadow: 1px 5px 10px; #orange;
+	text-transform: uppercase;
+	background-image: url("images/a.jpg") ;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+.main-menu li{
+	background: black;
+	display: inline-block;
+}
+.container {margin: 0;padding: 0}
+
+.li{
+	color: black;
+}
+.big-text{
+ font-size:30px ;
+ margin: 60px 0;
+ color:royalblue;
+}
+a.btn{
+	margin: 30px 10px;
+	width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+}
+a.btn-first{
+	background-color: darkorange;
+	color: white;
+	border-radius: 10px;
+}
+a.btn-second{
+	background: transparent;
+	color: black;
+	border-radius: 10px;
+}
+a.btn:hover{
+	background: darkorange;
+	border: none;
+	color: whitesmoke;
+	box-shadow: 5px 5px 10px black;
+	transition: 0.3s;
+}
+.banner-info ,.banner-image{
+	margin-right: 10px;
+}
